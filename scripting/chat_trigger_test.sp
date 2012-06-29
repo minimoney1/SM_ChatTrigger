@@ -20,5 +20,8 @@ public OnMapStart()
 
 public Action:Timer_Spam(Handle:timer)
 {
-	PrintToChatAll("\x03Type %csettings to open your settings menu!", ChatTrigger_GetPublic());
+	decl String:pTrig[8], String:sTrig[8];
+	ChatTrigger_GetPublicString(pTrig, sizeof(pTrig));
+	ChatTrigger_GetSilentString(sTrig, sizeof(sTrig));
+	PrintToChatAll("\x03Type %ssettings or %ssettings in chat to open your settings menu!", pTrig, sTrig);
 }
