@@ -1,0 +1,19 @@
+"Updater"
+{
+	"Information"
+	{
+		"Version"
+		{
+			"Latest"	"1.0.0"
+		}
+
+		"Notes"		"Initial Version"
+	}
+	"Files"
+	{
+		"Plugin"	"Path_SM/plugins/chat_triggers.smx"
+
+		"Source"	"Path_SM/scripting/chat_triggers.sp"
+		"Source"	"Path_SM/scripting/includes/chat_triggers.inc"
+	}
+}
